@@ -4,20 +4,19 @@
   "description": "Ejercicio 7 - Sprint 3 Hack Academy con (María Jose Marra)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valinor33/HA--twiter_clone.git"
+    "url": "git+https://github.com/mjmarra/twitter-clone-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/valinor33/HA--twiter_clone/issues"
+    "url": "https://github.com/mjmarra/twitter-clone-backend/issues"
   },
-  "homepage": "https://github.com/valinor33/HA--twiter_clone#readme",
+  "homepage": "https://github.com/mjmarra/twitter-clone-backend#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
