@@ -4,9 +4,6 @@ const apiRouter = express.Router();
 const checkJwt = require("express-jwt");
 const apiController = require("../controllers/apiController");
 const tweetController = require("../controllers/tweetController");
-const cors = require("cors");
-
-apiRouter.use(cors());
 
 function checkToken() {
 	return checkJwt({
