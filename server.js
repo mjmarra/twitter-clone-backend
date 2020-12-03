@@ -2,11 +2,11 @@ require("dotenv").config();
 
 const APP_PORT = process.env.APP_PORT || 5000;
 const express = require("express");
-
-const path = require("path");
+const cors = require("cors");
 
 const app = express();
-const cors = require("cors");
+app.use(cors()); // Use this after the variable declaration
+
 const seeds = require("./seeds/seeds");
 
 // seeds();
@@ -14,8 +14,6 @@ const seeds = require("./seeds/seeds");
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());
-
-app.use(cors()); // Use this after the variable declaration
 
 require("./routes/routes")(app);
 
